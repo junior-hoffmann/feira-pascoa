@@ -2,7 +2,7 @@
 
 :root {
     --color-primary: #766ccd;
-    --color-primary-hover: #766ccdbf;
+    --color-primary-hover: #766ccd66;
 }
 
 * {
@@ -11,14 +11,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-}
-
-body {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* background-color: #766ccd; */
 }
 
 header {
@@ -40,17 +32,35 @@ header h1 {
     color: #f4f4f4;
 }
 
+#banner {
+    width: 100%;
+    height: 35vh;
+    background-image: url("../assets/imgs/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner p {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 nav h2 {
     color: #766ccd;
     font-weight: bolder;
-    padding: 1rem;
 }
 
 #nav__btns {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    padding: 1rem;
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
@@ -58,11 +68,10 @@ nav h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    height: 10vh;
+    height: 5vh;
+    background-color: var(--color-primary-hover);
     color: #fff;
     font-weight: bold;
-    border-radius: 1rem;
 }
 
 #nav__btns a span {
@@ -75,28 +84,6 @@ nav h2 {
     border-radius: 1rem;
 }
 
-/* 
-.btn {
-    height: min-content;
-    padding: 8pt;
-    background-color: transparent;
-    border: none;
-    border-radius: 8pt;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 16pt;
-}
-
-.btn-primary {
-    background-color: var(--color-primary);
-    color: #ffffff;
-}
-
-.btn-primary:hover {
-    background-color: var(--color-primary-hover);
-}
-
-*/
 footer {
     display: flex;
     flex-direction: column;
@@ -113,4 +100,32 @@ footer div {
 footer div a {
     font-weight: bold;
     color: var(--color-primary);
+}
+
+#catalogo {
+
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem 1rem;
+}
+
+.card__produto {
+    margin-right: auto;
+    width: (50vw - 2rem);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card__produto img {
+    height: (50vw - 2rem);
+    width: 100%;
+}
+
+.card__produto div{
+    padding: 1rem;
+}
+
+.card__produto div p{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
 }
