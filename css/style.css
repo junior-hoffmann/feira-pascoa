@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
-    --color-primary: #766ccd;
-    --color-primary-hover: #766ccd66;
+    --cor-primaria: #766ccd;
+    --cor-primaria-hover: #766ccd66;
+    --cor-chocolate: #4e2d20;
 }
 
 * {
@@ -19,7 +20,7 @@ header {
     padding: 1rem;
     align-items: center;
     color: white;
-    background-color: var(--color-primary);
+    background-color: var(--cor-primaria);
     width: 100%;
 }
 
@@ -69,7 +70,7 @@ nav h2 {
     justify-content: center;
     align-items: center;
     height: 5vh;
-    background-color: var(--color-primary-hover);
+    background-color: var(--cor-primaria-hover);
     color: #fff;
     font-weight: bold;
 }
@@ -99,11 +100,17 @@ footer div {
 
 footer div a {
     font-weight: bold;
-    color: var(--color-primary);
+    color: var(--cor-primaria);
 }
 
-#catalogo {
+.catalogo__categoria-titulo{
+    color: var(--cor-chocolate);
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1rem 0 0 1rem;
+}
 
+.catalogo__categoria-itens{
     padding: 1rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
