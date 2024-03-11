@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --color-primary: #766ccd;
+    --color-primary-hover: #766ccdbf;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #766ccd; */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    color: white;
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
+header img {
+    height: 10vh;
+    object-fit: cover;
+}
+
+header h1 {
+    color: #f4f4f4;
+}
+
+nav h2 {
+    color: #766ccd;
+    font-weight: bolder;
+    padding: 1rem;
+}
+
+#nav__btns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 1rem;
+
+}
+
+#nav__btns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 10vh;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+#nav__btns a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.374);
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* 
+.btn {
+    height: min-content;
+    padding: 8pt;
+    background-color: transparent;
+    border: none;
+    border-radius: 8pt;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-primary-hover);
+}
+
+*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30pt;
+}
+
+footer div {
+    padding: 12pt;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+footer div a {
+    font-weight: bold;
+    color: var(--color-primary);
+}
