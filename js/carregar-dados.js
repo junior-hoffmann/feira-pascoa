@@ -1,4 +1,4 @@
-{
+let dados = {
     "ao-leite": {
         "categoria": "Ao leite",
         "itens": [
@@ -30,7 +30,7 @@
             {
                 "descricao": "Coelho 40g",
                 "preco": "R$ 9,00",
-                "imagem": "./assets/chocolates/coelho-40g.webp.webp"
+                "imagem": "./assets/chocolates/coelho-40g.webp"
             },
             {
                 "descricao": "Coelho 80g",
@@ -244,7 +244,7 @@
             },
             {
                 "descricao": "Kit Maquiagem 75g",
-                "preco": "R$ ,00",
+                "preco": "R$ 33,00",
                 "imagem": "./assets/chocolates/kit-maquiagem.webp"
             },
             {
@@ -408,25 +408,97 @@
         "categoria": "Soja",
         "itens": [
             {
-                "descricao": "",
-                "preco": "R$ ,00",
-                "imagem": "./assets/chocolates/"
+                "descricao": "Coelha soja 150g",
+                "preco": "R$ 42,00",
+                "imagem": "./assets/chocolates/coelha-soja.webp"
             },
             {
-                "descricao": "",
-                "preco": "R$ ,00",
-                "imagem": "./assets/chocolates/"
+                "descricao": "Ovo soja 150g",
+                "preco": "R$ 42,00",
+                "imagem": "./assets/chocolates/ovo-soja-150g.webp"
             },
             {
-                "descricao": "",
-                "preco": "R$ ,00",
-                "imagem": "./assets/chocolates/"
+                "descricao": "Chocolate Sabor soja 50g",
+                "preco": "R$ 14,00",
+                "imagem": "./assets/chocolates/sabor-soja.webp"
             },
             {
-                "descricao": "",
-                "preco": "R$ ,00",
-                "imagem": "./assets/chocolates/"
+                "descricao": "Pacote Chocolate soja 100g",
+                "preco": "R$ 29,00",
+                "imagem": "./assets/chocolates/pacote-chocolate-soja.webp"
             }
         ]
     }
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute('href'));
+        const offsetTop = target.offsetTop;
+
+        window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth',
+            duration: 1500
+        });
+    });
+});
+
+
+// Selecione o elemento onde deseja inserir o catálogo
+const catalogoElement = document.getElementById("catalogo");
+
+// Loop pelas categorias do objeto dados
+for (let categoria in dados) {
+    // Crie os elementos HTML para a categoria e seus itens
+    const categoriaElement = document.createElement("div");
+    categoriaElement.id = categoria
+    categoriaElement.classList.add("catalogo__categoria");
+
+    const tituloElement = document.createElement("h3");
+    tituloElement.classList.add("catalogo__categoria-titulo");
+    tituloElement.textContent = dados[categoria].categoria;
+
+    const itensElement = document.createElement("div");
+    itensElement.classList.add("catalogo__categoria-itens");
+
+    // Loop pelos itens da categoria
+    for (let item of dados[categoria].itens) {
+        const produtoElement = document.createElement("div");
+        produtoElement.classList.add("card__produto");
+
+        const imagemElement = document.createElement("img");
+        imagemElement.classList.add("card__produto__img")
+        imagemElement.src = item.imagem;
+        imagemElement.alt = item.descricao;
+
+        const bodyElement = document.createElement("div")
+        // bodyElement.classList.add("card__produto__body")
+
+        const descricaoElement = document.createElement("h3");
+        descricaoElement.textContent = item.descricao;
+
+        const precoElement = document.createElement("p");
+        precoElement.textContent = item.preco;
+
+        // Adicione os elementos dentro do card do produto
+        produtoElement.appendChild(imagemElement)
+        bodyElement.appendChild(descricaoElement)
+        bodyElement.appendChild(precoElement)
+        produtoElement.appendChild(bodyElement)
+        // produtoElement.appendChild(descricaoElement)
+        // produtoElement.appendChild(precoElement)
+
+        // Adicione o card do produto dentro da lista de itens da categoria
+        itensElement.appendChild(produtoElement);
+    }
+
+    // Adicione o título e os itens dentro da categoria
+    categoriaElement.appendChild(tituloElement);
+    categoriaElement.appendChild(itensElement);
+
+    // Adicione a categoria ao catálogo
+    catalogoElement.appendChild(categoriaElement);
 }
