@@ -288,10 +288,25 @@ let dados = {
                 "imagem": "./assets/chocolates/ovo-fadas.webp"
             },
             {
-                "descricao": "",
-                "preco": "R$ ,00",
+                "descricao": "Chocophone 70g",
+                "preco": "R$ 23,00",
                 "imagem": "./assets/chocolates/"
-            }
+            },
+            // {
+            //     "descricao": "",
+            //     "preco": "R$ ,00",
+            //     "imagem": "./assets/chocolates/"
+            // },
+            // {
+            //     "descricao": "",
+            //     "preco": "R$ ,00",
+            //     "imagem": "./assets/chocolates/"
+            // },
+            // {
+            //     "descricao": "",
+            //     "preco": "R$ ,00",
+            //     "imagem": "./assets/chocolates/"
+            // }
         ]
     },
     "cestas": {
@@ -326,7 +341,7 @@ let dados = {
                 "descricao": "Cesta Páscoa 1,73kg",
                 "preco": "R$ 406,00",
                 "imagem": "./assets/chocolates/cesta-1kg.webp"
-            }
+            },
         ]
     },
     "meio-amargo": {
