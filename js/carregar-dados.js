@@ -290,7 +290,7 @@ let dados = {
             {
                 "descricao": "Chocophone 70g",
                 "preco": "R$ 23,00",
-                "imagem": "./assets/chocolates/"
+                "imagem": "./assets/chocolates/choco-phone.png"
             },
             // {
             //     "descricao": "",
