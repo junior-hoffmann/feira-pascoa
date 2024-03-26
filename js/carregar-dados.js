@@ -139,12 +139,12 @@ let dados = {
             },
             {
                 "descricao": "Ovo Truffado Pérola Negra 450g",
-                "preco": "R$ 100,00",
+                "preco": "R$ 95,00",
                 "imagem": "./assets/chocolates/ovo-truffado-perola-negra.webp"
             },
             {
                 "descricao": "Ovo Truffado Avelã 450g",
-                "preco": "R$ 100,00",
+                "preco": "R$ 95,00",
                 "imagem": "./assets/chocolates/ovo-truffado-avela.webp"
             },
             {
