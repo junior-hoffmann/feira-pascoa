@@ -403,7 +403,7 @@ let dados = {
                 "imagem": "./assets/chocolates/sabor-diet.webp"
             },
             {
-                "descricao": "Coelho diet 200g",
+                "descricao": "Coelho diet 150g",
                 "preco": "R$ 54,00",
                 "imagem": "./assets/chocolates/coelho-diet.webp"
             }
