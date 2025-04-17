@@ -14,17 +14,17 @@ let dados = {
             },
             {
                 "descricao": "Ovo ao leite 300g",
-                "preco": "R$ 94,00",
+                "preco": "R$ 87,00",
                 "imagem": "./assets/chocolates/ovo-300g.webp"
             },
             {
                 "descricao": "Ovo ao leite 450g",
-                "preco": "R$ 141,00",
+                "preco": "R$ 1135,00",
                 "imagem": "./assets/chocolates/ovo-450g.webp"
             },
             {
                 "descricao": "Ovo ao leite 700g",
-                "preco": "R$ 220,00",
+                "preco": "R$ 210,00",
                 "imagem": "./assets/chocolates/ovo-700g.webp"
             },
             {
@@ -39,7 +39,7 @@ let dados = {
             },
             {
                 "descricao": "Coelha 150g",
-                "preco": "R$ 51,00",
+                "preco": "R$ 50,00",
                 "imagem": "./assets/chocolates/coelha-150g.webp"
             },
             {
@@ -59,7 +59,7 @@ let dados = {
             },
             {
                 "descricao": "Coração 280g",
-                "preco": "R$ 82,00",
+                "preco": "R$ 79,00",
                 "imagem": "./assets/chocolates/coracao-280g.webp"
             },
             {
@@ -79,22 +79,22 @@ let dados = {
             },
             {
                 "descricao": "Ovo branco 300g",
-                "preco": "R$ 94,00",
+                "preco": "R$ 87,00",
                 "imagem": "./assets/chocolates/ovo-branco-300g.webp"
             },
             {
                 "descricao": "Ovo branco 450g",
-                "preco": "R$ 141,00",
+                "preco": "R$ 135,00",
                 "imagem": "./assets/chocolates/ovo-branco-450g.webp"
             },
             {
                 "descricao": "Ovo branco 700g",
-                "preco": "R$ 220,00",
+                "preco": "R$ 210,00",
                 "imagem": "./assets/chocolates/ovo-branco-700g.webp"
             },
             {
                 "descricao": "Coelho branco 30g",
-                "preco": "R$ 10,00",
+                "preco": "R$ 9,00",
                 "imagem": "./assets/chocolates/coelho-branco-30g.webp"
             },
             {
@@ -119,7 +119,7 @@ let dados = {
             },
             {
                 "descricao": "Ovo Cookies 350g",
-                "preco": "R$ 110,00",
+                "preco": "R$ 105,00",
                 "imagem": "./assets/chocolates/ovo-cookies.webp"
             },
             {
@@ -129,22 +129,22 @@ let dados = {
             },
             {
                 "descricao": "Ovo Fantasia ao leite 150g",
-                "preco": "R$ 47,00",
+                "preco": "R$ 45,00",
                 "imagem": "./assets/chocolates/ovo-fantasia.webp"
             },
             {
                 "descricao": "Ovo Fantasia branco 150g",
-                "preco": "R$ 47,00",
+                "preco": "R$ 45,00",
                 "imagem": "./assets/chocolates/ovo-fantasia-branco.webp"
             },
             {
                 "descricao": "Ovo Truffado Pérola Negra 450g",
-                "preco": "R$ 141,00",
+                "preco": "R$ 130,00",
                 "imagem": "./assets/chocolates/ovo-truffado-perola-negra.webp"
             },
             {
                 "descricao": "Ovo Truffado Avelã 450g",
-                "preco": "R$ 141,00",
+                "preco": "R$ 130,00",
                 "imagem": "./assets/chocolates/ovo-truffado-avela.webp"
             },
             {
@@ -184,7 +184,7 @@ let dados = {
             },
             {
                 "descricao": "Coração com Bombons 300g",
-                "preco": "R$ 88,00",
+                "preco": "R$ 82,00",
                 "imagem": "./assets/chocolates/coracao-com-bombons.webp"
             },
             {
@@ -194,7 +194,7 @@ let dados = {
             },
             {
                 "descricao": "Bombonier com Trufas 200g",
-                "preco": "R$ 70,00",
+                "preco": "R$ 67,00",
                 "imagem": "./assets/chocolates/bombonier-trufas-200g.webp"
             },
             {
@@ -209,12 +209,12 @@ let dados = {
             },
             {
                 "descricao": "Caixa Bombons 120g",
-                "preco": "R$ 39,00",
+                "preco": "R$ 36,00",
                 "imagem": "./assets/chocolates/cx-bombons-120g.webp"
             },
             {
                 "descricao": "Caixa Bombons 225g",
-                "preco": "R$ 71,00",
+                "preco": "R$ 68,00",
                 "imagem": "./assets/chocolates/cx-bombons-225g.webp"
             },
             {
@@ -279,7 +279,7 @@ let dados = {
             },
             {
                 "descricao": "Chocophone 70g",
-                "preco": "R$ 30,00",
+                "preco": "R$ 28,00",
                 "imagem": "./assets/chocolates/choco-phone.png"
             },
             // {
@@ -304,7 +304,7 @@ let dados = {
         "itens": [
             {
                 "descricao": "Cesta Páscoa 213g",
-                "preco": "R$ 74,00",
+                "preco": "R$ 68,00",
                 "imagem": "./assets/chocolates/cesta-213g.webp"
             },
             {
@@ -314,12 +314,12 @@ let dados = {
             },
             {
                 "descricao": "Cesta Páscoa Branca 460g",
-                "preco": "R$ 148,00",
+                "preco": "R$ 140,00",
                 "imagem": "./assets/chocolates/cesta-branca-460.webp"
             },
             {
                 "descricao": "Cesta com Alça 403g",
-                "preco": "R$ 142,00",
+                "preco": "R$ 138,00",
                 "imagem": "./assets/chocolates/cesta-com-alca.webp"
             },
             {
@@ -329,7 +329,7 @@ let dados = {
             },
             {
                 "descricao": "Cesta Páscoa 1,73kg",
-                "preco": "R$ 542,00",
+                "preco": "R$ 500,00",
                 "imagem": "./assets/chocolates/cesta-1kg.webp"
             },
         ]
@@ -374,7 +374,7 @@ let dados = {
             },
             {
                 "descricao": "Ovo 70% cacau 300g",
-                "preco": "R$ 114,00",
+                "preco": "R$ 105,00",
                 "imagem": "./assets/chocolates/ovo-70-300g.webp"
             }
         ]
