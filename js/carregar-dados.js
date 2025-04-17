@@ -39,7 +39,7 @@ let dados = {
             },
             {
                 "descricao": "Coelha 150g",
-                "preco": "R$ 50,00",
+                "preco": "R$ 47,00",
                 "imagem": "./assets/chocolates/coelha-150g.webp"
             },
             {
@@ -114,7 +114,7 @@ let dados = {
         "itens": [
             {
                 "descricao": "Ovo Gran Espressione 300g",
-                "preco": "R$ 94,00",
+                "preco": "R$ 90,00",
                 "imagem": "./assets/chocolates/ovo-granespressione.webp"
             },
             {
@@ -124,7 +124,7 @@ let dados = {
             },
             {
                 "descricao": "Ovo Drágeas 300g",
-                "preco": "R$ 94,00",
+                "preco": "R$ 90,00",
                 "imagem": "./assets/chocolates/ovo-drageas.webp"
             },
             {
@@ -154,7 +154,7 @@ let dados = {
             },
             {
                 "descricao": "Meio Ovo com Drágeas 200g",
-                "preco": "R$ 63,00",
+                "preco": "R$ 60,00",
                 "imagem": "./assets/chocolates/meio-ovo-drageas.png"
             },
             {
@@ -254,7 +254,7 @@ let dados = {
             },
             {
                 "descricao": "Caixa Dinossauro 100g",
-                "preco": "R$ 33,00",
+                "preco": "R$ 30,00",
                 "imagem": "./assets/chocolates/caixa-dino.webp"
             },
             {
