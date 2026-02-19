@@ -1,0 +1,354 @@
+{
+    "ao-leite": {
+        "categoria": "Ao leite",
+        "itens": [
+            {
+                "descricao": "Ovo ao leite 300g",
+                "preco": 87.00,
+                "imagem": "./assets/chocolates/ovo-300g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo ao leite 700g",
+                "preco": 210.00,
+                "imagem": "./assets/chocolates/ovo-700g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coelha 150g",
+                "preco": 47.00,
+                "imagem": "./assets/chocolates/coelha-150g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coelho 200g",
+                "preco": 63.00,
+                "imagem": "./assets/chocolates/coelho-200g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coração 130g",
+                "preco": 39.00,
+                "imagem": "./assets/chocolates/coracao-130g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coração 280g",
+                "preco": 79.00,
+                "imagem": "./assets/chocolates/coracao-280g.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "branco": {
+        "categoria": "Branco",
+        "itens": [
+            {
+                "descricao": "Ovo branco 120g",
+                "preco": 38.00,
+                "imagem": "./assets/chocolates/ovo-branco-120g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo branco 300g",
+                "preco": 87.00,
+                "imagem": "./assets/chocolates/ovo-branco-300g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo branco 450g",
+                "preco": 135.00,
+                "imagem": "./assets/chocolates/ovo-branco-450g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo branco 700g",
+                "preco": 210.00,
+                "imagem": "./assets/chocolates/ovo-branco-700g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coelho branco 30g",
+                "preco": 9.00,
+                "imagem": "./assets/chocolates/coelho-branco-30g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coelho branco 200g",
+                "preco": 63.00,
+                "imagem": "./assets/chocolates/coelho-branco-200g.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "diversos": {
+        "categoria": "Diversos",
+        "itens": [
+            {
+                "descricao": "Ovo Gran Espressione 300g",
+                "preco": 94.00,
+                "imagem": "./assets/chocolates/ovo-granespressione.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Cookies 350g",
+                "preco": 105.00,
+                "imagem": "./assets/chocolates/ovo-cookies.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Drágeas 300g",
+                "preco": 90.00,
+                "imagem": "./assets/chocolates/ovo-drageas.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Fantasia ao leite 150g",
+                "preco": 45.00,
+                "imagem": "./assets/chocolates/ovo-fantasia.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Fantasia branco 150g",
+                "preco": 45.00,
+                "imagem": "./assets/chocolates/ovo-fantasia-branco.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Truffado Pérola Negra 450g",
+                "preco": 130.00,
+                "imagem": "./assets/chocolates/ovo-truffado-perola-negra.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Truffado Avelã 450g",
+                "preco": 130.00,
+                "imagem": "./assets/chocolates/ovo-truffado-avela.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Meio Ovo com Drágeas 200g",
+                "preco": 60.00,
+                "imagem": "./assets/chocolates/meio-ovo-drageas.png",
+                "desconto": 0
+            },
+            {
+                "descricao": "Barra Feliz Páscoa 100g",
+                "preco": 31.00,
+                "imagem": "./assets/chocolates/barra-feliz-pascoa.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cenoura com Drágeas 100g",
+                "preco": 32.00,
+                "imagem": "./assets/chocolates/cenoura-drageas.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Pacote com Ovos 130g",
+                "preco": 44.00,
+                "imagem": "./assets/chocolates/pacote-com-ovos-130g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Pacote com Ovos 65g",
+                "preco": 23.00,
+                "imagem": "./assets/chocolates/pacote-com-ovos-65g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coração com Bombons 300g",
+                "preco": 82.00,
+                "imagem": "./assets/chocolates/coracao-com-bombons.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa Bombons 120g",
+                "preco": 36.00,
+                "imagem": "./assets/chocolates/cx-bombons-120g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa Bombons 225g",
+                "preco": 68.00,
+                "imagem": "./assets/chocolates/cx-bombons-225g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa Bombons 270g",
+                "preco": 93.00,
+                "imagem": "./assets/chocolates/cx-bombons-270g.png",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa Barras 216g",
+                "preco": 65.00,
+                "imagem": "./assets/chocolates/cx-barra-216g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Kit Ferramentas 120g",
+                "preco": 47.00,
+                "imagem": "./assets/chocolates/kit-ferramentas.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Kit Maquiagem 75g",
+                "preco": 44.00,
+                "imagem": "./assets/chocolates/kit-maquiagem.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Choco Player 100g",
+                "preco": 32.00,
+                "imagem": "./assets/chocolates/choco-player.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa Dinossauro 100g",
+                "preco": 30.00,
+                "imagem": "./assets/chocolates/caixa-dino.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Saulinho 280g",
+                "preco": 92.00,
+                "imagem": "./assets/chocolates/ovo-saulinho.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo Dinos 180g",
+                "preco": 73.00,
+                "imagem": "./assets/chocolates/ovo-dinos.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo da Fada 180g",
+                "preco": 73.00,
+                "imagem": "./assets/chocolates/ovo-fadas.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Chocophone 70g",
+                "preco": 28.00,
+                "imagem": "./assets/chocolates/choco-phone.png",
+                "desconto": 0
+            }
+        ]
+    },
+    "cestas": {
+        "categoria": "Cestas",
+        "itens": [
+            {
+                "descricao": "Cesta Páscoa 213g",
+                "preco": 68.00,
+                "imagem": "./assets/chocolates/cesta-213g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cesta Páscoa 400g",
+                "preco": 135.00,
+                "imagem": "./assets/chocolates/cesta-400g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cesta Páscoa Branca 460g",
+                "preco": 140.00,
+                "imagem": "./assets/chocolates/cesta-branca-460.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cesta com Alça 403g",
+                "preco": 138.00,
+                "imagem": "./assets/chocolates/cesta-com-alca.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cesta Páscoa 700g",
+                "preco": 243.00,
+                "imagem": "./assets/chocolates/cesta-700g.png",
+                "desconto": 0
+            },
+            {
+                "descricao": "Cesta Páscoa 1,73kg",
+                "preco": 500.00,
+                "imagem": "./assets/chocolates/cesta-1kg.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "meio-amargo": {
+        "categoria": "Meio amargo",
+        "itens": [
+            {
+                "descricao": "Ovo meio amargo 180g",
+                "preco": 57.00,
+                "imagem": "./assets/chocolates/ovo-meio-amargo-180g.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "teor-70": {
+        "categoria": "70% cacau",
+        "itens": [
+            {
+                "descricao": "Ovo 70% cacau 300g",
+                "preco": 105.00,
+                "imagem": "./assets/chocolates/ovo-70-300g.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "diet": {
+        "categoria": "Diet",
+        "itens": [
+            {
+                "descricao": "Caixa Barras diet 108g",
+                "preco": 39.00,
+                "imagem": "./assets/chocolates/caixa-diet-108.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Caixa de Trufas diet 160g",
+                "preco": 58.00,
+                "imagem": "./assets/chocolates/trufas-diet.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo diet 120g",
+                "preco": 43.00,
+                "imagem": "./assets/chocolates/ovo-diet-120g.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Chocolate Sabor diet 50g",
+                "preco": 18.00,
+                "imagem": "./assets/chocolates/sabor-diet.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Coelho diet 150g",
+                "preco": 54.00,
+                "imagem": "./assets/chocolates/coelho-diet.webp",
+                "desconto": 0
+            }
+        ]
+    },
+    "soja": {
+        "categoria": "Soja",
+        "itens": [
+            {
+                "descricao": "Coelha soja 150g",
+                "preco": 56.00,
+                "imagem": "./assets/chocolates/coelha-soja.webp",
+                "desconto": 0
+            },
+            {
+                "descricao": "Ovo soja 150g",
+                "preco": 56.00,
+                "imagem": "./assets/chocolates/ovo-soja-150g.webp",
+                "desconto": 0
+            }
+        ]
+    }
+}

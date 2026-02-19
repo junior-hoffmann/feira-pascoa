@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Florybal Osório</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- AppBar -->
+    <header class="app-bar">
+        <div class="app-bar-container">
+            <button id="menu-btn" class="icon-btn"><i class="fas fa-bars"></i></button>
+            <!-- <h1 class="app-bar-title">Florybal Osório</h1> -->
+            <div id="app-bar-title">
+                <img src="./assets/logo.png" alt="Logo da Feira de Páscoa Florybal Osório" class="app-bar-logo">
+                <h1 class="app-bar-title">Osório</h1>
+            </div>
+            <div class="app-bar-actions">
+                <!-- <button id="search-toggle" class="icon-btn"><i class="fas fa-search"></i></button> -->
+                <button id="btn-carrinho-appbar" class="icon-btn cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="badge-carrinho" class="badge">0</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- <div id="search-bar-container" class="search-bar-container hidden">
+            <input type="search" id="search-bar" placeholder="Buscar produto... (ex: ovo 300g)">
+        </div> -->
+    </header>
+
+    <!-- Drawer lateral -->
+    <div id="drawer" class="drawer">
+        <div class="drawer-header">
+            <h2>Categorias</h2>
+            <button id="close-drawer" class="icon-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="drawer-list">
+            <li><a href="#ao-leite">Ao leite</a></li>
+            <li><a href="#branco">Branco</a></li>
+            <li><a href="#diversos">Diversos</a></li>
+            <li><a href="#cestas">Cestas</a></li>
+            <li><a href="#meio-amargo">Meio amargo</a></li>
+            <li><a href="#teor-70">70% cacau</a></li>
+            <li><a href="#diet">Diet</a></li>
+            <li><a href="#soja">Soja</a></li>
+        </ul>
+    </div>
+
+    <div id="overlay" class="overlay hidden"></div>
+
+    <!-- Banner / Carrossel de promoções -->
+    <div id="banner" class="carousel">
+        <div class="slides">
+            <!-- Adicione ou remova <div class="slide"> quantos quiser -->
+            <div class="slide active" style="background-image: url('./assets/imgs/banner1.jpeg');"></div>
+            <div class="slide" style="background-image: url('./assets/imgs/banner3.jpeg');"></div>
+        </div>
+
+        <!-- Botões de navegação (sempre visíveis) -->
+        <button class="carousel-btn prev" aria-label="Slide anterior">&#10094;</button>
+        <button class="carousel-btn next" aria-label="Próximo slide">&#10095;</button>
+
+        <!-- Pontinhos – o JS vai criar automaticamente -->
+        <div class="dots"></div>
+    </div>
+
+    <!-- Seção "Como Chegar na Feira" – entre banner e catálogo -->
+    <section id="como-chegar" class="como-chegar">
+        <div class="container">
+            <h2>Como Chegar na Feira Florybal Osório?</h2>
+            <p>Estamos esperando você para escolher os melhores ovos de Páscoa e chocolates caseiros pessoalmente!</p>
+
+            <div class="info-local">
+                <div class="endereco">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <strong>Endereço:</strong><br>
+                    Rua Major João Marques, nº 416, sala 2
+                    Centro de Osório
+                    <br><br>Ao lado da Imobiliária Sérgio Madalena
+                </div>
+
+                <div class="horarios">
+                    <i class="fas fa-clock"></i>
+                    <strong>Horário da Feira:</strong><br>
+                    Diariamente das 9h às 20h<br><br>
+                    Abriremos também na sexta feira santa e no sábado de aleluia! <br>
+                </div>
+            </div>
+
+            <!-- Mapa embedado – substitua o src pelo seu link do Google Maps -->
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.8954386475734!2d-50.2700311!3d-29.888786499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951866066c2afb8b%3A0xd1124caabf456e8e!2sR.%20Maj.%20Jo%C3%A3o%20Marques%2C%20416%20-%202%20-%20Centro%2C%20Os%C3%B3rio%20-%20RS%2C%2095520-000!5e1!3m2!1spt-BR!2sbr!4v1768673636139!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="botoes">
+                <a href="https://www.google.com/maps/search/?api=1&query=Rua%20Major%20Jo%C3%A3o%20Marques%2C%20416%2C%20Loja%202"
+                    target="_blank" class="btn-mapa">
+                    <i class="fas fa-directions"></i> Abrir no Google Maps
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Catálogo -->
+    <div id="catalogo-section">
+        <section>
+            <h3>Catálogo</h3>
+            <p class="verifique">Verifique os produtos disponíveis na feira!</p>
+            <input type="search" id="search-bar" placeholder="Buscar produto... (ex: ovo 300g)">
+        </section>
+        <div id="catalogo"></div>
+    </div>
+
+    <!-- Modal carrinho -->
+    <div id="modal-carrinho" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar-modal">×</span>
+            <h2>Seu Carrinho</h2>
+            <div id="itens-carrinho"></div>
+            <p id="total-carrinho">Total: R$ 0,00</p>
+            <button id="btn-finalizar">Finalizar no WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Modal de quantidade -->
+    <div id="modal-quantidade" class="modal">
+        <div class="modal-conteudo" style="max-width: 380px;">
+            <span class="fechar-modal-quantidade">×</span>
+            <h2 id="titulo-produto-quantidade">Adicionar ao carrinho</h2>
+
+            <div style="text-align: center; margin: 1.5rem 0;">
+                <img id="img-produto-quantidade" src="" alt="Produto"
+                    style="max-width: 140px; max-height: 140px; object-fit: contain; margin-bottom: 1rem;">
+            </div>
+
+            <p id="desc-produto-quantidade" style="text-align: center; font-size: 1.1rem; margin-bottom: 1.5rem;"></p>
+
+            <div style="display: flex; align-items: center; justify-content: center; gap: 1.5rem; margin: 1.5rem 0;">
+                <button id="btn-menos-qtd" class="btn-quantidade">-</button>
+                <input type="number" id="input-quantidade" value="1" min="1" max="99"
+                    style="width: 80px; text-align: center; font-size: 1.4rem; padding: 8px; border: 2px solid #766ccd; border-radius: 8px;">
+                <button id="btn-mais-qtd" class="btn-quantidade">+</button>
+            </div>
+
+            <button id="btn-confirmar-quantidade" class="btn-adicionar"
+                style="width: 100%; padding: 1rem; font-size: 1.1rem;">
+                Adicionar × <span id="qtd-preview">1</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Floating Action Button WhatsApp -->
+    <a href="https://wa.me/5551991439298?text=Ol%C3%A1%2C%20tudo%20bem%3F" target="_blank" class="fab-whatsapp"
+        title="Falar com a loja">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="./js/carregar-dados.js"></script>
+</body>
+
+</html>
