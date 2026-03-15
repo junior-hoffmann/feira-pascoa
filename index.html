@@ -49,7 +49,7 @@
             <div class="hero__content">
                 <p class="hero__eyebrow">Chocolates caseiros</p>
                 <h2>Uma Páscoa que começa com carinho e termina em sabor.</h2>
-                <p class="hero__subtitle">Confira os produtos disponíveis, navegue pelas categorias e gere uma versão em PDF para impressão.</p>
+                <p class="hero__subtitle">Escolha seus favoritos e confira os produtos disponíveis na feira.</p>
                 <div class="hero__actions">
                     <a class="btn btn--primary" href="#catalogo-section">Ver catálogo</a>
                     <a class="btn btn--ghost" href="#como-chegar">Como chegar</a>
@@ -111,28 +111,10 @@
                     <h2>Catálogo</h2>
                     <p class="catalog__subtitle">Confira os produtos disponíveis na feira.</p>
                 </div>
-                <div class="catalog__tools">
-                    <label class="search">
-                        <i class="fas fa-magnifying-glass"></i>
-                        <input type="search" id="search-bar" placeholder="Buscar produto... (ex: ovo 300g)">
-                    </label>
-                    <button id="btn-imprimir-catalogo" class="btn btn--dark btn--print" type="button">
-                        <i class="fas fa-file-pdf"></i>
-                        Gerar PDF
-                    </button>
-                </div>
-            </div>
-            <div class="print-panel">
-                <div class="print-panel__intro">
-                    <h3>Catálogo para impressão</h3>
-                    <p>Na exportação em PDF, o link de localização pode continuar clicável dependendo do navegador usado.</p>
-                </div>
-                <div class="print-panel__actions">
-                    <a href="https://F1exL8.short.gy/localizacao-site" target="_blank" class="btn btn--dark">
-                        <i class="fas fa-location-dot"></i> Abrir localização
-                    </a>
-                </div>
-                <div class="print-panel__nav" id="print-nav"></div>
+                <label class="search">
+                    <i class="fas fa-magnifying-glass"></i>
+                    <input type="search" id="search-bar" placeholder="Buscar produto... (ex: ovo 300g)">
+                </label>
             </div>
             <div id="catalogo" class="catalog__list"></div>
         </section>
@@ -146,8 +128,6 @@
         const catalogoElement = document.getElementById("catalogo");
         const searchBar = document.getElementById("search-bar");
         const drawerList = document.getElementById("drawer-list");
-        const printNav = document.getElementById("print-nav");
-        const btnImprimirCatalogo = document.getElementById("btn-imprimir-catalogo");
 
         function formatarPreco(valor) {
             return `R$ ${Number(valor).toFixed(2).replace(".", ",")}`;
@@ -198,25 +178,12 @@
             });
         }
 
-        function renderizarNavegacaoImpressao(categorias) {
-            if (!printNav) return;
-            printNav.innerHTML = "";
-
-            categorias.forEach(categoria => {
-                const link = document.createElement("a");
-                link.href = `#${categoria.id}`;
-                link.innerHTML = `<i class="fas fa-bookmark"></i>${categoria.categoria}`;
-                printNav.appendChild(link);
-            });
-        }
-
         fetch("./dados-produtos.json")
             .then(r => r.json())
             .then(dados => {
                 const categorias = normalizarCategorias(dados);
                 catalogoElement.innerHTML = "";
                 renderizarMenuCategorias(categorias);
-                renderizarNavegacaoImpressao(categorias);
 
                 categorias.forEach(categoria => {
                     const secao = document.createElement("div");
@@ -393,14 +360,6 @@
         }
 
         searchBar?.addEventListener("input", e => filtrarProdutos(e.target.value));
-
-        btnImprimirCatalogo?.addEventListener("click", () => {
-            if (searchBar) {
-                searchBar.value = "";
-                filtrarProdutos("");
-            }
-            window.print();
-        });
     </script>
 </body>
 
