@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feira Florybal Osório</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="topbar__content">
+            <button id="menu-btn" class="icon-btn" aria-label="Abrir menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="brand">
+                <img src="./assets/logo.png" alt="Logo da Feira Florybal Osório" class="brand__logo">
+                <!-- <div class="brand__text">
+                    <h1>Osório</h1>
+                </div> -->
+            </div>
+
+        </div>
+    </header>
+
+    <div id="drawer" class="drawer">
+        <div class="drawer-header">
+            <h2>Categorias</h2>
+            <button id="close-drawer" class="icon-btn" aria-label="Fechar menu"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="drawer-list" id="drawer-list"></ul>
+    </div>
+
+    <div id="overlay" class="overlay hidden"></div>
+
+    <main>
+        <section id="banner" class="hero">
+            <div class="hero__slides">
+                <div class="hero__slide active" style="background-image: url('./assets/imgs/banner1.jpg');"></div>
+                <div class="hero__slide" style="background-image: url('./assets/imgs/banner2.jpg');"></div>
+            </div>
+
+            <div class="hero__mask"></div>
+
+            <div class="hero__content">
+                <p class="hero__eyebrow">Chocolates caseiros</p>
+                <h2>Uma Páscoa que começa com carinho e termina em sabor.</h2>
+                <p class="hero__subtitle">Confira os produtos disponíveis, navegue pelas categorias e gere uma versão em PDF para impressão.</p>
+                <div class="hero__actions">
+                    <a class="btn btn--primary" href="#catalogo-section">Ver catálogo</a>
+                    <a class="btn btn--ghost" href="#como-chegar">Como chegar</a>
+                </div>
+                <div class="hero__tags">
+
+                    <span><i class="fas fa-location-dot"></i> Centro de Osório</span>
+                    <span><i class="fas fa-clock"></i>8h30 às 12h15 e das 13h às 19h</span>
+                    <span><i class="fas fa-calendar-check"></i> Abertos no domingo e na Sexta-feira Santa</span>
+                </div>
+            </div>
+
+            <button class="carousel-btn prev" aria-label="Slide anterior">&#10094;</button>
+            <button class="carousel-btn next" aria-label="Próximo slide">&#10095;</button>
+            <div class="dots"></div>
+        </section>
+
+        <section id="como-chegar" class="arrival">
+            <div class="arrival__content">
+                <div class="arrival__text">
+                    <h2>Como chegar na Feira Florybal Osório</h2>
+                    <p>Estamos esperando você para escolher os melhores ovos de Páscoa e chocolates caseiros.</p>
+
+                    <div class="arrival__cards">
+                        <article>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Endereço</h3>
+                            <p>Rua Marechal Floriano, nº 1038 sala 2 </p>
+                            <p>Centro de Osório</p>
+                            <p>Ao lado da Loja Colombo</p>
+                        </article>
+                        <article>
+                            <i class="fas fa-clock"></i>
+                            <h3>Horários</h3>
+                            <p>Diariamente das 8h30 às 12h15 e das 13h às 19h</p>
+                            <p>Abrimos também na Sexta-feira Santa e no Sábado de Aleluia.</p>
+                        </article>
+                    </div>
+
+                    <div class="arrival__actions">
+                        <a href="https://F1exL8.short.gy/localizacao-site" target="_blank" class="btn btn--dark">
+                            <i class="fas fa-directions"></i> Abrir no Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="arrival__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.1640574390503!2d-50.2709473!3d-29.8883731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95186605e2e4d887%3A0xb03199ca9a18e12c!2sR.%20Mal.%20Floriano%20Peixoto%2C%201038%20-%20Centro%2C%20Os%C3%B3rio%20-%20RS%2C%2095520-000!5e0!3m2!1spt-BR!2sbr!4v1772756883566!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalogo-section" class="catalog">
+            <div class="catalog__header">
+                <div>
+                    <h2>Catálogo</h2>
+                    <p class="catalog__subtitle">Confira os produtos disponíveis na feira.</p>
+                </div>
+                <div class="catalog__tools">
+                    <label class="search">
+                        <i class="fas fa-magnifying-glass"></i>
+                        <input type="search" id="search-bar" placeholder="Buscar produto... (ex: ovo 300g)">
+                    </label>
+                    <button id="btn-imprimir-catalogo" class="btn btn--dark btn--print" type="button">
+                        <i class="fas fa-file-pdf"></i>
+                        Gerar PDF
+                    </button>
+                </div>
+            </div>
+            <div class="print-panel">
+                <div class="print-panel__intro">
+                    <h3>Catálogo para impressão</h3>
+                    <p>Na exportação em PDF, o link de localização pode continuar clicável dependendo do navegador usado.</p>
+                </div>
+                <div class="print-panel__actions">
+                    <a href="https://F1exL8.short.gy/localizacao-site" target="_blank" class="btn btn--dark">
+                        <i class="fas fa-location-dot"></i> Abrir localização
+                    </a>
+                </div>
+                <div class="print-panel__nav" id="print-nav"></div>
+            </div>
+            <div id="catalogo" class="catalog__list"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Feira de Páscoa Florybal em Osório</p>
+    </footer>
+
+    <script>
+        const catalogoElement = document.getElementById("catalogo");
+        const searchBar = document.getElementById("search-bar");
+        const drawerList = document.getElementById("drawer-list");
+        const printNav = document.getElementById("print-nav");
+        const btnImprimirCatalogo = document.getElementById("btn-imprimir-catalogo");
+
+        function formatarPreco(valor) {
+            return `R$ ${Number(valor).toFixed(2).replace(".", ",")}`;
+        }
+
+        function criarSlugCategoria(valor, fallback = "categoria") {
+            const base = String(valor || fallback)
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .toLowerCase()
+                .trim()
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-+|-+$/g, "");
+
+            return base || fallback;
+        }
+
+        function normalizarCategorias(dados) {
+            if (!dados || typeof dados !== "object") return [];
+
+            return Object.entries(dados)
+                .map(([chave, categoria]) => {
+                    const nomeCategoria = categoria?.categoria || chave;
+                    const itens = Array.isArray(categoria?.itens)
+                        ? categoria.itens.filter(item => item?.temEstoque === true)
+                        : [];
+
+                    return {
+                        id: criarSlugCategoria(chave || nomeCategoria),
+                        categoria: nomeCategoria,
+                        itens
+                    };
+                })
+                .filter(categoria => categoria.itens.length > 0);
+        }
+
+        function renderizarMenuCategorias(categorias) {
+            if (!drawerList) return;
+            drawerList.innerHTML = "";
+
+            categorias.forEach(categoria => {
+                const itemLista = document.createElement("li");
+                const link = document.createElement("a");
+                link.href = `#${categoria.id}`;
+                link.textContent = categoria.categoria;
+                itemLista.appendChild(link);
+                drawerList.appendChild(itemLista);
+            });
+        }
+
+        function renderizarNavegacaoImpressao(categorias) {
+            if (!printNav) return;
+            printNav.innerHTML = "";
+
+            categorias.forEach(categoria => {
+                const link = document.createElement("a");
+                link.href = `#${categoria.id}`;
+                link.innerHTML = `<i class="fas fa-bookmark"></i>${categoria.categoria}`;
+                printNav.appendChild(link);
+            });
+        }
+
+        fetch("./dados-produtos.json")
+            .then(r => r.json())
+            .then(dados => {
+                const categorias = normalizarCategorias(dados);
+                catalogoElement.innerHTML = "";
+                renderizarMenuCategorias(categorias);
+                renderizarNavegacaoImpressao(categorias);
+
+                categorias.forEach(categoria => {
+                    const secao = document.createElement("div");
+                    secao.id = categoria.id;
+                    secao.className = "catalogo__categoria";
+
+                    const titulo = document.createElement("h3");
+                    titulo.textContent = categoria.categoria;
+                    titulo.className = "catalogo__categoria-titulo";
+
+                    const grid = document.createElement("div");
+                    grid.className = "catalogo__categoria-itens";
+
+                    categoria.itens.forEach(item => {
+                        const temDesconto = item.desconto > 0;
+                        const precoOriginal = formatarPreco(item.preco);
+                        const precoFinal = temDesconto ? formatarPreco(item.desconto) : precoOriginal;
+                        const descontoValor = temDesconto ? formatarPreco(item.preco - item.desconto) : null;
+
+                        const card = document.createElement("div");
+                        card.className = "card__produto";
+                        card.innerHTML = `
+                            <div class="card__media">
+                                <img src="${item.imagem}" alt="${item.descricao}">
+                            </div>
+                            <div class="card__body">
+                                <h3>${item.descricao}</h3>
+                                ${item.obs ? `<span class="obs-produto">${item.obs}</span>` : ""}
+                                <div class="card__prices">
+                                    ${temDesconto
+                                        ? `<span class="preco-riscado">De ${precoOriginal}</span>
+                                           <div class="price-row">
+                                                <span class="price-tag">${precoFinal}</span>
+                                                <span class="discount-pill">Economize ${descontoValor}</span>
+                                           </div>`
+                                        : `<div class="price-row">
+                                                <span class="price-tag">${precoOriginal}</span>
+                                           </div>`}
+                                </div>
+                            </div>
+                        `;
+
+                        grid.appendChild(card);
+                    });
+
+                    secao.append(titulo, grid);
+                    catalogoElement.appendChild(secao);
+                });
+            });
+
+        const carousel = document.getElementById("banner");
+        if (carousel) {
+            const slidesContainer = carousel.querySelector(".hero__slides");
+            const slides = carousel.querySelectorAll(".hero__slide");
+            const prevBtn = carousel.querySelector(".prev");
+            const nextBtn = carousel.querySelector(".next");
+            const dotsContainer = carousel.querySelector(".dots");
+
+            let currentIndex = 0;
+            const totalSlides = slides.length;
+            const intervalTime = 5000;
+            let autoInterval;
+
+            if (dotsContainer && totalSlides > 1) {
+                for (let i = 0; i < totalSlides; i++) {
+                    const dot = document.createElement("span");
+                    dot.classList.add("dot");
+                    if (i === 0) dot.classList.add("active");
+                    dot.dataset.index = i;
+                    dotsContainer.appendChild(dot);
+                }
+            }
+
+            const dots = dotsContainer ? dotsContainer.querySelectorAll(".dot") : [];
+
+            function showSlide(index) {
+                slidesContainer.style.width = `${totalSlides * 100}%`;
+                slides.forEach(slide => {
+                    slide.style.width = `${100 / totalSlides}%`;
+                });
+
+                slidesContainer.style.transform = `translateX(-${index * (100 / totalSlides)}%)`;
+                slides.forEach((s, i) => s.classList.toggle("active", i === index));
+                dots.forEach((d, i) => d.classList.toggle("active", i === index));
+            }
+
+            function nextSlide() {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                showSlide(currentIndex);
+            }
+
+            function prevSlide() {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                showSlide(currentIndex);
+            }
+
+            nextBtn?.addEventListener("click", () => {
+                clearInterval(autoInterval);
+                nextSlide();
+                autoInterval = setInterval(nextSlide, intervalTime);
+            });
+
+            prevBtn?.addEventListener("click", () => {
+                clearInterval(autoInterval);
+                prevSlide();
+                autoInterval = setInterval(nextSlide, intervalTime);
+            });
+
+            dots.forEach(dot => {
+                dot.addEventListener("click", () => {
+                    clearInterval(autoInterval);
+                    currentIndex = parseInt(dot.dataset.index, 10);
+                    showSlide(currentIndex);
+                    autoInterval = setInterval(nextSlide, intervalTime);
+                });
+            });
+
+            carousel.addEventListener("mouseenter", () => clearInterval(autoInterval));
+            carousel.addEventListener("mouseleave", () => autoInterval = setInterval(nextSlide, intervalTime));
+
+            if (totalSlides > 0) {
+                showSlide(0);
+                if (totalSlides > 1) autoInterval = setInterval(nextSlide, intervalTime);
+            }
+        }
+
+        const menuBtn = document.getElementById("menu-btn");
+        const closeDrawer = document.getElementById("close-drawer");
+        const drawer = document.getElementById("drawer");
+        const overlay = document.getElementById("overlay");
+
+        menuBtn?.addEventListener("click", () => {
+            drawer?.classList.add("open");
+            overlay?.classList.remove("hidden");
+        });
+
+        closeDrawer?.addEventListener("click", () => {
+            drawer?.classList.remove("open");
+            overlay?.classList.add("hidden");
+        });
+
+        overlay?.addEventListener("click", () => {
+            drawer?.classList.remove("open");
+            overlay?.classList.add("hidden");
+        });
+
+        drawerList?.addEventListener("click", e => {
+            const link = e.target.closest("a");
+            if (!link) return;
+
+            e.preventDefault();
+            document.querySelector(link.getAttribute("href"))?.scrollIntoView({ behavior: "smooth" });
+            drawer?.classList.remove("open");
+            overlay?.classList.add("hidden");
+        });
+
+        function filtrarProdutos(termo) {
+            termo = (termo || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().trim();
+            if (!termo) {
+                document.querySelectorAll(".catalogo__categoria, .card__produto").forEach(el => el.style.display = "");
+                return;
+            }
+
+            document.querySelectorAll(".catalogo__categoria").forEach(cat => {
+                let visivel = false;
+                cat.querySelectorAll(".card__produto").forEach(card => {
+                    const desc = card.querySelector("h3")?.textContent?.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase() || "";
+                    const match = desc.includes(termo);
+                    card.style.display = match ? "" : "none";
+                    if (match) visivel = true;
+                });
+                cat.style.display = visivel ? "" : "none";
+            });
+        }
+
+        searchBar?.addEventListener("input", e => filtrarProdutos(e.target.value));
+
+        btnImprimirCatalogo?.addEventListener("click", () => {
+            if (searchBar) {
+                searchBar.value = "";
+                filtrarProdutos("");
+            }
+            window.print();
+        });
+    </script>
+</body>
+
+</html>
