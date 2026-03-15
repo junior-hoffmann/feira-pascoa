@@ -1,0 +1,1020 @@
+{
+    "ao-leite": {
+        "categoria": "Ao leite",
+        "itens": [
+            {
+                "descricao": "Cachorro 30g",
+                "preco": 15,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Caixa Esqueleto 120g",
+                "preco": 37,
+                "imagem": "./assets/chocolates/infantil/cx-esqueleto-ao-leite.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Capivara 50g",
+                "preco": 19,
+                "imagem": "./assets/chocolates/ao-leite/capivara.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Sabor Pimenta 50g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/diversos/sabor-pimenta-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chuteira 150g",
+                "preco": 48,
+                "imagem": "./assets/chocolates/ao-leite/chuteira-ao-leite-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 30g",
+                "preco": 12,
+                "imagem": "./assets/chocolates/ao-leite/coelho-ao-leite-30g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 40g",
+                "preco": 16,
+                "imagem": "./assets/chocolates/ao-leite/coelho-40g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 50g",
+                "preco": 21,
+                "imagem": "./assets/chocolates/ao-leite/coelho-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 80g",
+                "preco": 28,
+                "imagem": "./assets/chocolates/ao-leite/coelho-80g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 150g",
+                "preco": 61,
+                "imagem": "./assets/chocolates/ao-leite/coelho-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho 200g",
+                "preco": 76,
+                "imagem": "./assets/chocolates/ao-leite/coelho-chocolate-ao-leite-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração 12g",
+                "preco": 5,
+                "imagem": "./assets/chocolates/ao-leite/coracao-12g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração Amo Você 100g",
+                "preco": 31,
+                "imagem": "./assets/chocolates/ao-leite/coracao-amo-voce-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração 130g",
+                "preco": 40,
+                "imagem": "./assets/chocolates/ao-leite/coracao-130g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração 280g",
+                "preco": 95,
+                "imagem": "./assets/chocolates/ao-leite/coracao-280g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração 550g",
+                "preco": 187,
+                "imagem": "./assets/chocolates/ao-leite/coracao-550g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coruja 70g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/ao-leite/coruja-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Elefante 70g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/ao-leite/elefante-ao-leite-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Fusca 100g",
+                "preco": 32,
+                "imagem": "./assets/chocolates/ao-leite/fusca-ao-leite-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovelha 70g",
+                "preco": 23,
+                "imagem": "./assets/chocolates/ao-leite/ovelha-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo ao Leite 60g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/ao-leite/ovo-60g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo ao Leite 120g",
+                "preco": 39,
+                "imagem": "./assets/chocolates/ao-leite/ovo-120g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo ao Leite 180g",
+                "preco": 65,
+                "imagem": "./assets/chocolates/ao-leite/ovo-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo ao Leite 300g",
+                "preco": 108,
+                "imagem": "./assets/chocolates/ao-leite/ovo-300g.webp",
+                "desconto": 88,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo ao Leite 450g",
+                "preco": 157,
+                "imagem": "./assets/chocolates/ao-leite/ovo-450g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Gran Espressione 300g",
+                "preco": 95,
+                "imagem": "./assets/chocolates/diversos/ovo-gran-espressione-300g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pato 80g",
+                "preco": 27,
+                "imagem": "./assets/chocolates/ao-leite/pato-ao-leite-80g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pinguim 100g",
+                "preco": 38,
+                "imagem": "./assets/chocolates/ao-leite/pinguim-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Tartaruga 40g",
+                "preco": 16,
+                "imagem": "./assets/chocolates/ao-leite/tartaruga-40g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Urso 70g",
+                "preco": 23,
+                "imagem": "./assets/chocolates/ao-leite/urso-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "branco": {
+        "categoria": "Branco",
+        "itens": [
+            {
+                "descricao": "Cachorro Branco 30g",
+                "preco": 15,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Chaleira Branca 100g",
+                "preco": 32,
+                "imagem": "./assets/chocolates/branco/chaleira-branco-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chuteira Branca 150g",
+                "preco": 48,
+                "imagem": "./assets/chocolates/branco/chuteira-branca-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho Branco 30g",
+                "preco": 12,
+                "imagem": "./assets/chocolates/branco/coelho-branco-30g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho Branco 200g",
+                "preco": 76,
+                "imagem": "./assets/chocolates/branco/coelho-branco-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coracao Branco 12g",
+                "preco": 5,
+                "imagem": "./assets/chocolates/cesta/coracao-branco-12g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coracao Branco 130g",
+                "preco": 40,
+                "imagem": "./assets/chocolates/branco/coracao-branco-130g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coruja Branca 70g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/branco/coruja-branca-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovelha Branca 70g",
+                "preco": 23,
+                "imagem": "./assets/chocolates/branco/ovelha-branca.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Branco 120g",
+                "preco": 43,
+                "imagem": "./assets/chocolates/branco/ovo-branco-120g.webp",
+                "desconto": 39,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Branco 300g",
+                "preco": 108,
+                "imagem": "./assets/chocolates/branco/ovo-branco-300g.webp",
+                "desconto": 88,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Branco 450g",
+                "preco": 177,
+                "imagem": "./assets/chocolates/branco/ovo-branco-450g.webp",
+                "desconto": 157,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pato Branco 80g",
+                "preco": 27,
+                "imagem": "./assets/chocolates/branco/pato-branco-80g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pinguim Branco 100g",
+                "preco": 38,
+                "imagem": "./assets/chocolates/branco/pinguim-branco-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Tartaruga Branca 40g",
+                "preco": 16,
+                "imagem": "./assets/chocolates/branco/tartaruga-branca-40g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Urso Branco 70g",
+                "preco": 23,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            }
+        ]
+    },
+    "diversos": {
+        "categoria": "Diversos",
+        "itens": [
+            {
+                "descricao": "Barra Lembrei de Voce 80g",
+                "preco": 26,
+                "imagem": "./assets/chocolates/diversos/barra-lembrei-de-vc-80g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Barra Adoro Voce 100g",
+                "preco": 15,
+                "imagem": "./assets/chocolates/diversos/barra-adoro-voce-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Barra Feliz Páscoa 100g",
+                "preco": 34,
+                "imagem": "./assets/chocolates/diversos/barra-feliz-pascoa-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Barra Branca Especialmente pra Voce 150g",
+                "preco": 48,
+                "imagem": "./assets/chocolates/diversos/barra-branco-especialmente-pra-voce-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Barra Especialmente pra Voce 150g",
+                "preco": 48,
+                "imagem": "./assets/chocolates/diversos/barra-especialmente-para-voce-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Bau Encantado Florybal 25g",
+                "preco": 29,
+                "imagem": "./assets/chocolates/diversos/bau-encantado-25g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Bombonier Trufas 200g",
+                "preco": 87,
+                "imagem": "./assets/chocolates/diversos/bombonier-trufas-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Bombonier Chocolate Puro 300g",
+                "preco": 130,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Bombonier Drageas 300g",
+                "preco": 130,
+                "imagem": "./assets/chocolates/diversos/bombonier-drageas-300g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa c/15 Pastilhas Laranja 45g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/diversos/pastilhas-laranja.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa c/15 Pastilhas Menta 45g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/diversos/pastilhas-menta.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa Meio Ovo Recheado Cookies N Cream 180g",
+                "preco": 69,
+                "imagem": "./assets/chocolates/diversos/meio-ovo-recheado-cookies.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa Meio Ovo Recheado Florymaltine 180g",
+                "preco": 69,
+                "imagem": "./assets/chocolates/diversos/ovo-recheado-florymaltine-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Barras 108g",
+                "preco": 32,
+                "imagem": "./assets/chocolates/diversos/caixa-barras-de-chocolate-108g-cod-173.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Barras 216g",
+                "preco": 64,
+                "imagem": "./assets/chocolates/diversos/caixa-barras-216g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons 120g",
+                "preco": 46,
+                "imagem": "./assets/chocolates/diversos/caixa-de-bombons-120g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons Creme de Leite 135g",
+                "preco": 60,
+                "imagem": "./assets/chocolates/diversos/bombons-creamys-135g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons Licor 135g",
+                "preco": 75,
+                "imagem": "./assets/chocolates/diversos/caixa-bombons-de-licor-135g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons 180g",
+                "preco": 70,
+                "imagem": "./assets/chocolates/diversos/caixa-de-bombons-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons 225g",
+                "preco": 85,
+                "imagem": "./assets/chocolates/diversos/caixa-bombons-225g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Bombons 270g",
+                "preco": 106,
+                "imagem": "./assets/chocolates/diversos/caixa-bombons-270g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Trufas Perola Negra 160g",
+                "preco": 63,
+                "imagem": "./assets/chocolates/diversos/caixa-trufas-perola-negra.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caneca Florybal c/ Cinta 102g",
+                "preco": 53,
+                "imagem": "./assets/chocolates/diversos/caneca-florybal-com-cinta-102g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Cenoura com Drágeas 100g",
+                "preco": 34,
+                "imagem": "./assets/chocolates/diversos/cenoura-drageas.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Quente no Palito 22g",
+                "preco": 10,
+                "imagem": "./assets/chocolates/diversos/chocolate-palito.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Sortido Misto 200g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/diversos/chocolate-sortido-misto-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocophone 70g",
+                "preco": 36,
+                "imagem": "./assets/chocolates/diversos/chocophone-70g.png",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coração com Bombons 300g",
+                "preco": 105,
+                "imagem": "./assets/chocolates/diversos/coracao-com-bombons-300g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coracao Trufado Florymaltine 110g",
+                "preco": 44,
+                "imagem": "./assets/chocolates/diversos/coracao-trufado.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Cremosissimo Florybal 80g",
+                "preco": 31,
+                "imagem": "./assets/chocolates/diversos/cremosissimo.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Cuia de Chocolate 70g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/ao-leite/cuia-70g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes Branca 100g",
+                "preco": 30,
+                "imagem": "./assets/chocolates/diversos/drageas-brancas-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes 150g",
+                "preco": 44,
+                "imagem": "./assets/chocolates/diversos/drageas-ao-leite-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes Brancas 150g",
+                "preco": 44,
+                "imagem": "./assets/chocolates/diversos/drageas-brancas-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes Mistas 150g",
+                "preco": 44,
+                "imagem": "./assets/chocolates/diversos/drageas-mistas-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes Brancas 200g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/diversos/drageas-brancas-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Drageas Crocantes Mistas 200g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/diversos/drageas-mistas-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Kit Cuia e Chaleira 170g",
+                "preco": 54,
+                "imagem": "./assets/chocolates/diversos/kit-cuia-e-chaleira.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Truffado Avelã 450g",
+                "preco": 176,
+                "imagem": "./assets/chocolates/diversos/ovo-truffado-avela-450g.webp",
+                "desconto": 165,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Truffado Pérola Negra 450g",
+                "preco": 176,
+                "imagem": "./assets/chocolates/diversos/ovo-truffado-perola-negra-450g.webp",
+                "desconto": 165,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Cookies 350g",
+                "preco": 137,
+                "imagem": "./assets/chocolates/diversos/ovo-cookies-branco-350g.webp",
+                "desconto": 127,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Doce de Leite Branco 180g",
+                "preco": 70,
+                "imagem": "./assets/chocolates/diversos/ovo-doce-de-leite-branco-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Drageas 200g",
+                "preco": 72,
+                "imagem": "./assets/chocolates/diversos/ovo-drageas-200g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Drágeas 300g",
+                "preco": 114,
+                "imagem": "./assets/chocolates/diversos/ovo-drageas-300g.webp",
+                "desconto": 107,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Gran Espressione 300g",
+                "preco": 110,
+                "imagem": "./assets/chocolates/diversos/ovo-gran-espressione-300g.webp",
+                "desconto": 95,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pacote com Ovos 65g",
+                "preco": 28,
+                "imagem": "./assets/chocolates/ao-leite/pacote-com-ovos-65g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pacote com Ovos 130g",
+                "preco": 55,
+                "imagem": "./assets/chocolates/ao-leite/pacote-com-ovos-130g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "infantil": {
+        "categoria": "Infantil",
+        "itens": [
+            {
+                "descricao": "Caixa Mundo das Fadas 50g",
+                "preco": 52,
+                "imagem": "./assets/chocolates/infantil/munda-das-fadas.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa Dinossauro 100g",
+                "preco": 35,
+                "imagem": "./assets/chocolates/infantil/cx-dino-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa Ovo Quebra-Quebra 260g",
+                "preco": 106,
+                "imagem": "./assets/chocolates/infantil/ovo-quebra-quebra-250g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caneca Florybal Dino c/ Cinta 88g",
+                "preco": 50,
+                "imagem": "./assets/chocolates/infantil/caneca-dino.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caneca Florybal Dino Pink c/ Cinta 88g",
+                "preco": 50,
+                "imagem": "./assets/chocolates/infantil/caneca-pink.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Choco Player 100g",
+                "preco": 38,
+                "imagem": "./assets/chocolates/infantil/choco-player-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Choco Rex 100g",
+                "preco": 32,
+                "imagem": "./assets/chocolates/infantil/choco-rex.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Choco Rex Branco 100g",
+                "preco": 32,
+                "imagem": "./assets/chocolates/infantil/choco-rex-branco-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Colecao Planeta Unicornio 100g",
+                "preco": 57,
+                "imagem": "./assets/chocolates/infantil/planeta-unicornio.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Colecao Territorio dos Dinos 150g",
+                "preco": 79,
+                "imagem": "./assets/chocolates/infantil/territorio-dinossauro.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Dino Brigadeiro 15g",
+                "preco": 6,
+                "imagem": "./assets/chocolates/infantil/dino-brigadeiro.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Dino Morango 15g",
+                "preco": 6,
+                "imagem": "./assets/chocolates/diversos/dino-morango.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Kit Ferramentas 120g",
+                "preco": 58,
+                "imagem": "./assets/chocolates/infantil/kit-ferramentas-120g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Kit Maquiagem 75g",
+                "preco": 54,
+                "imagem": "./assets/chocolates/infantil/kit-maquiagem-75g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo para Colorir 280g",
+                "preco": 102,
+                "imagem": "./assets/chocolates/infantil/ovo-para-colorir-280g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Saulinho 280g",
+                "preco": 110,
+                "imagem": "./assets/chocolates/infantil/ovo-saulinho-280g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo da Fada 180g",
+                "preco": 81,
+                "imagem": "./assets/chocolates/infantil/ovo-da-fada-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Dinos 180g",
+                "preco": 81,
+                "imagem": "./assets/chocolates/infantil/ovo-dinos-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Fantasia ao Leite 150g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/diversos/ovo-fantasia-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Fantasia Branco 150g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/diversos/ovo-fantasia-branco-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Unicornio Brigadeiro 15g",
+                "preco": 6,
+                "imagem": "./assets/chocolates/infantil/unicornio-brigadeiro.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Unicornio Morango 15g",
+                "preco": 6,
+                "imagem": "./assets/chocolates/infantil/unicornio-morango.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "cestas": {
+        "categoria": "Cestas",
+        "itens": [
+            {
+                "descricao": "Cesta com Alça 403g",
+                "preco": 150,
+                "imagem": "./assets/chocolates/cesta/cesta-com-alca-403g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Cesta Coração com Crispies 90g",
+                "preco": 35,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Cesta Especial 268g",
+                "preco": 82,
+                "imagem": "./assets/chocolates/cesta/cesta-especial-268g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Cesta Infantil 214g",
+                "preco": 65,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Cesta Infantil c/ Garrafa 115g",
+                "preco": 59,
+                "imagem": "./assets/sem-imagem.png",
+                "desconto": 0,
+                "temEstoque": false
+            },
+            {
+                "descricao": "Cesta Páscoa 213g",
+                "preco": 90,
+                "imagem": "./assets/chocolates/cesta/cesta-pascoa-213g.webp",
+                "desconto": 75,
+                "temEstoque": true
+            }
+        ]
+    },
+    "meio-amargo": {
+        "categoria": "Meio amargo",
+        "itens": [
+            {
+                "descricao": "Caixa de Trufas Meio Amargo 160g",
+                "preco": 72,
+                "imagem": "./assets/chocolates/meio-amargo/trufas-meio-amargo.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Sabor Meio Amargo 50g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/meio-amargo/sabor-meio-amargo-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelha Meio Amargo 150g",
+                "preco": 59,
+                "imagem": "./assets/chocolates/meio-amargo/coelha-meio-amargo-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Meio Amargo 180g",
+                "preco": 70,
+                "imagem": "./assets/chocolates/meio-amargo/ovo-meio-amargo-180g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Meio Amargo 300g",
+                "preco": 118,
+                "imagem": "./assets/chocolates/meio-amargo/ovo-meio-amargo-300g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pinguim Meio Amargo 100g",
+                "preco": 40,
+                "imagem": "./assets/chocolates/meio-amargo/pinguim-meio-amargo-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "teor-70": {
+        "categoria": "70% cacau",
+        "itens": [
+            {
+                "descricao": "Caixa de Trufas 70% Cacau 160g",
+                "preco": 72,
+                "imagem": "./assets/chocolates/70-cacau/trufas-70.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Sabor 70% Cacau 50g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/70-cacau/sabor-70-cacau-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo 70% Cacau 300g",
+                "preco": 141,
+                "imagem": "./assets/chocolates/70-cacau/ovo-70-cacau-300g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "diet": {
+        "categoria": "Diet",
+        "itens": [
+            {
+                "descricao": "Caixa de Barras Diet 108g",
+                "preco": 49,
+                "imagem": "./assets/chocolates/diet/barra-diet-108g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Caixa de Trufas Diet 160g",
+                "preco": 72,
+                "imagem": "./assets/chocolates/diet/trufas-diet-160g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Chocolate Sabor Diet 50g",
+                "preco": 22,
+                "imagem": "./assets/chocolates/diet/sabor-diet-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelho Diet 150g",
+                "preco": 67,
+                "imagem": "./assets/chocolates/diet/coelha-diet-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Diet 120g",
+                "preco": 53,
+                "imagem": "./assets/chocolates/diet/ovo-diet-120g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    },
+    "soja": {
+        "categoria": "Soja",
+        "itens": [
+            {
+                "descricao": "Chocolate Sabor Soja 50g",
+                "preco": 24,
+                "imagem": "./assets/chocolates/soja/sabor-soja-50g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Coelha Soja 150g",
+                "preco": 70,
+                "imagem": "./assets/chocolates/soja/coelha-soja-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Ovo Soja 150g",
+                "preco": 70,
+                "imagem": "./assets/chocolates/soja/ovo-soja-150g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            },
+            {
+                "descricao": "Pcte. Chocolate Soja 100g",
+                "preco": 48,
+                "imagem": "./assets/chocolates/soja/pacote-soja-100g.webp",
+                "desconto": 0,
+                "temEstoque": true
+            }
+        ]
+    }
+}
