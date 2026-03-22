@@ -39,7 +39,7 @@
             },
             {
                 "descricao": "Coelho 30g",
-                "preco": 12,
+                "preco": 10,
                 "imagem": "./assets/chocolates/ao-leite/coelho-ao-leite-30g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -240,7 +240,7 @@
             },
             {
                 "descricao": "Coelho Branco 30g",
-                "preco": 12,
+                "preco": 10,
                 "imagem": "./assets/chocolates/branco/coelho-branco-30g.webp",
                 "desconto": 0,
                 "temEstoque": true
