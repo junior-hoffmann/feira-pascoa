@@ -200,7 +200,7 @@
             },
             {
                 "descricao": "Tartaruga 40g",
-                "preco": 16,
+                "preco": 14,
                 "imagem": "./assets/chocolates/ao-leite/tartaruga-40g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -317,7 +317,7 @@
             },
             {
                 "descricao": "Tartaruga Branca 40g",
-                "preco": 16,
+                "preco": 14,
                 "imagem": "./assets/chocolates/branco/tartaruga-branca-40g.webp",
                 "desconto": 0,
                 "temEstoque": true
