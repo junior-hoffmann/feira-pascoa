@@ -130,7 +130,7 @@
             },
             {
                 "descricao": "Fusca 100g",
-                "preco": 32,
+                "preco": 28,
                 "imagem": "./assets/chocolates/ao-leite/fusca-ao-leite-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -186,7 +186,7 @@
             },
             {
                 "descricao": "Pato 80g",
-                "preco": 27,
+                "preco": 23,
                 "imagem": "./assets/chocolates/ao-leite/pato-ao-leite-80g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -303,7 +303,7 @@
             },
             {
                 "descricao": "Pato Branco 80g",
-                "preco": 27,
+                "preco": 23,
                 "imagem": "./assets/chocolates/branco/pato-branco-80g.webp",
                 "desconto": 0,
                 "temEstoque": true
