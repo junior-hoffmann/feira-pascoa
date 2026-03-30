@@ -49,14 +49,14 @@
                 "preco": 14,
                 "imagem": "./assets/chocolates/ao-leite/coelho-40g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Coelho 50g",
                 "preco": 21,
                 "imagem": "./assets/chocolates/ao-leite/coelho-50g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Coelho 80g",
@@ -549,7 +549,7 @@
                 "preco": 24,
                 "imagem": "./assets/chocolates/ao-leite/cuia-70g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Drageas Crocantes Branca 100g",
@@ -598,7 +598,7 @@
                 "preco": 54,
                 "imagem": "./assets/chocolates/diversos/kit-cuia-e-chaleira.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Ovo Truffado Avelã 450g",
