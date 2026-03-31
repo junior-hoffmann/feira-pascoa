@@ -876,35 +876,35 @@
         "itens": [
             {
                 "descricao": "Caixa de Trufas Meio Amargo 160g",
-                "preco": 62,
+                "preco": 57,
                 "imagem": "./assets/chocolates/meio-amargo/trufas-meio-amargo.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Chocolate Sabor Meio Amargo 50g",
-                "preco": 22,
+                "preco": 18,
                 "imagem": "./assets/chocolates/meio-amargo/sabor-meio-amargo-50g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Coelha Meio Amargo 150g",
-                "preco": 51,
+                "preco": 47,
                 "imagem": "./assets/chocolates/meio-amargo/coelha-meio-amargo-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Meio Amargo 180g",
-                "preco": 60,
+                "preco": 55,
                 "imagem": "./assets/chocolates/meio-amargo/ovo-meio-amargo-180g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Meio Amargo 300g",
-                "preco": 101,
+                "preco": 90,
                 "imagem": "./assets/chocolates/meio-amargo/ovo-meio-amargo-300g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -923,14 +923,14 @@
         "itens": [
             {
                 "descricao": "Caixa de Trufas 70% Cacau 160g",
-                "preco": 62,
+                "preco": 58,
                 "imagem": "./assets/chocolates/70-cacau/trufas-70.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Chocolate Sabor 70% Cacau 50g",
-                "preco": 22,
+                "preco": 20,
                 "imagem": "./assets/chocolates/70-cacau/sabor-70-cacau-50g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -949,35 +949,35 @@
         "itens": [
             {
                 "descricao": "Caixa de Barras Diet 108g",
-                "preco": 42,
+                "preco": 39,
                 "imagem": "./assets/chocolates/diet/barra-diet-108g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caixa de Trufas Diet 160g",
-                "preco": 62,
+                "preco": 54,
                 "imagem": "./assets/chocolates/diet/trufas-diet-160g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Chocolate Sabor Diet 50g",
-                "preco": 22,
+                "preco": 18,
                 "imagem": "./assets/chocolates/diet/sabor-diet-50g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Coelho Diet 150g",
-                "preco": 57,
+                "preco": 50,
                 "imagem": "./assets/chocolates/diet/coelha-diet-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Diet 120g",
-                "preco": 45,
+                "preco": 44,
                 "imagem": "./assets/chocolates/diet/ovo-diet-120g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -989,28 +989,28 @@
         "itens": [
             {
                 "descricao": "Chocolate Sabor Soja 50g",
-                "preco": 24,
+                "preco": 18,
                 "imagem": "./assets/chocolates/soja/sabor-soja-50g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Coelha Soja 150g",
-                "preco": 60,
+                "preco": 54,
                 "imagem": "./assets/chocolates/soja/coelha-soja-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Soja 150g",
-                "preco": 60,
+                "preco": 54,
                 "imagem": "./assets/chocolates/soja/ovo-soja-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Pcte. Chocolate Soja 100g",
-                "preco": 43,
+                "preco": 37,
                 "imagem": "./assets/chocolates/soja/pacote-soja-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
