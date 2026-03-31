@@ -684,9 +684,9 @@
             },
             {
                 "descricao": "Caixa Ovo Quebra-Quebra 260g",
-                "preco": 116,
+                "preco": 86,
                 "imagem": "./assets/chocolates/infantil/ovo-quebra-quebra-250g.webp",
-                "desconto": 99,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
