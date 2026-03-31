@@ -144,7 +144,7 @@
             },
             {
                 "descricao": "Ovo ao Leite 60g",
-                "preco": 21,
+                "preco": 18,
                 "imagem": "./assets/chocolates/ao-leite/ovo-60g.webp",
                 "desconto": 0,
                 "temEstoque": true
