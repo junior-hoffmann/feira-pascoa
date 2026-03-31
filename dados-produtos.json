@@ -95,23 +95,23 @@
             },
             {
                 "descricao": "Coração 130g",
-                "preco": 40,
+                "preco": 37,
                 "imagem": "./assets/chocolates/ao-leite/coracao-130g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Coração 280g",
-                "preco": 87,
+                "preco": 77,
                 "imagem": "./assets/chocolates/ao-leite/coracao-280g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Coração 550g",
-                "preco": 187,
+                "preco": 150,
                 "imagem": "./assets/chocolates/ao-leite/coracao-550g.webp",
-                "desconto": 170,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
@@ -413,14 +413,14 @@
             },
             {
                 "descricao": "Caixa Meio Ovo Recheado Cookies N Cream 180g",
-                "preco": 69,
+                "preco": 54,
                 "imagem": "./assets/chocolates/diversos/meio-ovo-recheado-cookies.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caixa Meio Ovo Recheado Florymaltine 180g",
-                "preco": 69,
+                "preco": 54,
                 "imagem": "./assets/chocolates/diversos/ovo-recheado-florymaltine-180g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -441,14 +441,14 @@
             },
             {
                 "descricao": "Caixa de Bombons 120g",
-                "preco": 41,
+                "preco": 37,
                 "imagem": "./assets/chocolates/diversos/caixa-de-bombons-120g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caixa de Bombons Creme de Leite 135g",
-                "preco": 52,
+                "preco": 46,
                 "imagem": "./assets/chocolates/diversos/bombons-creamys-135g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -469,14 +469,14 @@
             },
             {
                 "descricao": "Caixa de Bombons 225g",
-                "preco": 76,
+                "preco": 68,
                 "imagem": "./assets/chocolates/diversos/caixa-bombons-225g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caixa de Bombons 270g",
-                "preco": 99,
+                "preco": 91,
                 "imagem": "./assets/chocolates/diversos/caixa-bombons-270g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -616,9 +616,9 @@
             },
             {
                 "descricao": "Ovo Cookies 350g",
-                "preco": 137,
+                "preco": 102,
                 "imagem": "./assets/chocolates/diversos/ovo-cookies-branco-350g.webp",
-                "desconto": 117,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
