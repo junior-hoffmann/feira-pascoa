@@ -151,16 +151,16 @@
             },
             {
                 "descricao": "Ovo ao Leite 120g",
-                "preco": 39,
+                "preco": 34,
                 "imagem": "./assets/chocolates/ao-leite/ovo-120g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo ao Leite 180g",
-                "preco": 70,
+                "preco": 52,
                 "imagem": "./assets/chocolates/ao-leite/ovo-180g.webp",
-                "desconto": 60,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
@@ -282,9 +282,9 @@
             },
             {
                 "descricao": "Ovo Branco 120g",
-                "preco": 43,
+                "preco": 34,
                 "imagem": "./assets/chocolates/branco/ovo-branco-120g.webp",
-                "desconto": 39,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
