@@ -32,7 +32,7 @@
             },
             {
                 "descricao": "Chuteira 150g",
-                "preco": 42,
+                "preco": 35,
                 "imagem": "./assets/chocolates/ao-leite/chuteira-ao-leite-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -60,7 +60,7 @@
             },
             {
                 "descricao": "Coelho 80g",
-                "preco": 27,
+                "preco": 23,
                 "imagem": "./assets/chocolates/ao-leite/coelho-80g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -74,7 +74,7 @@
             },
             {
                 "descricao": "Coelho 200g",
-                "preco": 68,
+                "preco": 60,
                 "imagem": "./assets/chocolates/ao-leite/coelho-chocolate-ao-leite-200g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -193,7 +193,7 @@
             },
             {
                 "descricao": "Pinguim 100g",
-                "preco": 34,
+                "preco": 31,
                 "imagem": "./assets/chocolates/ao-leite/pinguim-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -233,7 +233,7 @@
             },
             {
                 "descricao": "Chuteira Branca 150g",
-                "preco": 42,
+                "preco": 35,
                 "imagem": "./assets/chocolates/branco/chuteira-branca-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -247,7 +247,7 @@
             },
             {
                 "descricao": "Coelho Branco 200g",
-                "preco": 68,
+                "preco": 60,
                 "imagem": "./assets/chocolates/branco/coelho-branco-200g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -310,7 +310,7 @@
             },
             {
                 "descricao": "Pinguim Branco 100g",
-                "preco": 34,
+                "preco": 31,
                 "imagem": "./assets/chocolates/branco/pinguim-branco-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -378,23 +378,23 @@
             },
             {
                 "descricao": "Bombonier Trufas 200g",
-                "preco": 76,
+                "preco": 65,
                 "imagem": "./assets/chocolates/diversos/bombonier-trufas-200g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Bombonier Chocolate Puro 300g",
-                "preco": 130,
+                "preco": 92,
                 "imagem": "./assets/sem-imagem.png",
-                "desconto": 110,
+                "desconto": 0,
                 "temEstoque": false
             },
             {
                 "descricao": "Bombonier Drageas 300g",
-                "preco": 130,
+                "preco": 92,
                 "imagem": "./assets/chocolates/diversos/bombonier-drageas-300g.webp",
-                "desconto": 110,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
@@ -455,14 +455,14 @@
             },
             {
                 "descricao": "Caixa de Bombons Licor 135g",
-                "preco": 70,
+                "preco": 59,
                 "imagem": "./assets/chocolates/diversos/caixa-bombons-de-licor-135g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caixa de Bombons 180g",
-                "preco": 68,
+                "preco": 62,
                 "imagem": "./assets/chocolates/diversos/caixa-de-bombons-180g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -490,7 +490,7 @@
             },
             {
                 "descricao": "Caneca Florybal c/ Cinta 102g",
-                "preco": 46,
+                "preco": 38,
                 "imagem": "./assets/chocolates/diversos/caneca-florybal-com-cinta-102g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -518,7 +518,7 @@
             },
             {
                 "descricao": "Chocophone 70g",
-                "preco": 32,
+                "preco": 28,
                 "imagem": "./assets/chocolates/diversos/chocophone-70g.png",
                 "desconto": 0,
                 "temEstoque": true
@@ -539,7 +539,7 @@
             },
             {
                 "descricao": "Cremosissimo Florybal 80g",
-                "preco": 26,
+                "preco": 25,
                 "imagem": "./assets/chocolates/diversos/cremosissimo.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -623,14 +623,14 @@
             },
             {
                 "descricao": "Ovo Doce de Leite Branco 180g",
-                "preco": 63,
+                "preco": 54,
                 "imagem": "./assets/chocolates/diversos/ovo-doce-de-leite-branco-180g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Drageas 200g",
-                "preco": 68,
+                "preco": 60,
                 "imagem": "./assets/chocolates/diversos/ovo-drageas-200g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -639,7 +639,7 @@
                 "descricao": "Ovo Drágeas 300g",
                 "preco": 114,
                 "imagem": "./assets/chocolates/diversos/ovo-drageas-300g.webp",
-                "desconto": 99,
+                "desconto": 91,
                 "temEstoque": true
             },
             {
@@ -691,14 +691,14 @@
             },
             {
                 "descricao": "Caneca Florybal Dino c/ Cinta 88g",
-                "preco": 43,
+                "preco": 38,
                 "imagem": "./assets/chocolates/infantil/caneca-dino.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Caneca Florybal Dino Pink c/ Cinta 88g",
-                "preco": 43,
+                "preco": 38,
                 "imagem": "./assets/chocolates/infantil/caneca-pink.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -712,14 +712,14 @@
             },
             {
                 "descricao": "Choco Rex 100g",
-                "preco": 32,
+                "preco": 26,
                 "imagem": "./assets/chocolates/infantil/choco-rex.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Choco Rex Branco 100g",
-                "preco": 32,
+                "preco": 26,
                 "imagem": "./assets/chocolates/infantil/choco-rex-branco-100g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -768,16 +768,16 @@
             },
             {
                 "descricao": "Ovo para Colorir 280g",
-                "preco": 98,
+                "preco": 90,
                 "imagem": "./assets/chocolates/infantil/ovo-para-colorir-280g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Saulinho 280g",
-                "preco": 110,
+                "preco": 90,
                 "imagem": "./assets/chocolates/infantil/ovo-saulinho-280g.webp",
-                "desconto": 98,
+                "desconto": 0,
                 "temEstoque": true
             },
             {
@@ -796,14 +796,14 @@
             },
             {
                 "descricao": "Ovo Fantasia ao Leite 150g",
-                "preco": 51,
+                "preco": 43,
                 "imagem": "./assets/chocolates/diversos/ovo-fantasia-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
             },
             {
                 "descricao": "Ovo Fantasia Branco 150g",
-                "preco": 51,
+                "preco": 43,
                 "imagem": "./assets/chocolates/diversos/ovo-fantasia-branco-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -937,7 +937,7 @@
             },
             {
                 "descricao": "Ovo 70% Cacau 300g",
-                "preco": 120,
+                "preco": 110,
                 "imagem": "./assets/chocolates/70-cacau/ovo-70-cacau-300g.webp",
                 "desconto": 0,
                 "temEstoque": true
