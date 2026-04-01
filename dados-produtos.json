@@ -857,7 +857,7 @@
             },
             {
                 "descricao": "Cesta Infantil c/ Garrafa 115g",
-                "preco": 51,
+                "preco": 42,
                 "imagem": "./assets/sem-imagem.png",
                 "desconto": 0,
                 "temEstoque": false
