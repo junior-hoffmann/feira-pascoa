@@ -673,7 +673,7 @@
                 "preco": 48,
                 "imagem": "./assets/chocolates/infantil/munda-das-fadas.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Caixa Dinossauro 100g",
