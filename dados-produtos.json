@@ -21,7 +21,7 @@
                 "preco": 19,
                 "imagem": "./assets/chocolates/ao-leite/capivara.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Chocolate Sabor Pimenta 50g",
