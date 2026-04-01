@@ -729,7 +729,7 @@
                 "preco": 53,
                 "imagem": "./assets/chocolates/infantil/planeta-unicornio.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Colecao Territorio dos Dinos 150g",
