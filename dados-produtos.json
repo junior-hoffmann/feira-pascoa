@@ -49,7 +49,7 @@
                 "preco": 14,
                 "imagem": "./assets/chocolates/ao-leite/coelho-40g.webp",
                 "desconto": 0,
-                "temEstoque": false
+                "temEstoque": true
             },
             {
                 "descricao": "Coelho 50g",
@@ -67,7 +67,7 @@
             },
             {
                 "descricao": "Coelho 150g",
-                "preco": 55,
+                "preco": 47,
                 "imagem": "./assets/chocolates/ao-leite/coelho-150g.webp",
                 "desconto": 0,
                 "temEstoque": true
