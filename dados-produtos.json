@@ -137,7 +137,7 @@
             },
             {
                 "descricao": "Ovelha 70g",
-                "preco": 23,
+                "preco": 18,
                 "imagem": "./assets/chocolates/ao-leite/ovelha-70g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -186,7 +186,7 @@
             },
             {
                 "descricao": "Pato 80g",
-                "preco": 23,
+                "preco": 21,
                 "imagem": "./assets/chocolates/ao-leite/pato-ao-leite-80g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -207,7 +207,7 @@
             },
             {
                 "descricao": "Urso 70g",
-                "preco": 23,
+                "preco": 18,
                 "imagem": "./assets/chocolates/ao-leite/urso-70g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -275,7 +275,7 @@
             },
             {
                 "descricao": "Ovelha Branca 70g",
-                "preco": 23,
+                "preco": 18,
                 "imagem": "./assets/chocolates/branco/ovelha-branca.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -303,7 +303,7 @@
             },
             {
                 "descricao": "Pato Branco 80g",
-                "preco": 23,
+                "preco": 21,
                 "imagem": "./assets/chocolates/branco/pato-branco-80g.webp",
                 "desconto": 0,
                 "temEstoque": true
@@ -324,7 +324,7 @@
             },
             {
                 "descricao": "Urso Branco 70g",
-                "preco": 23,
+                "preco": 18,
                 "imagem": "./assets/sem-imagem.png",
                 "desconto": 0,
                 "temEstoque": false
