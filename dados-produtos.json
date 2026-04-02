@@ -167,7 +167,7 @@
                 "descricao": "Ovo ao Leite 300g",
                 "preco": 108,
                 "imagem": "./assets/chocolates/ao-leite/ovo-300g.webp",
-                "desconto": 88,
+                "desconto": 82,
                 "temEstoque": true
             },
             {
@@ -291,7 +291,7 @@
                 "descricao": "Ovo Branco 300g",
                 "preco": 108,
                 "imagem": "./assets/chocolates/branco/ovo-branco-300g.webp",
-                "desconto": 88,
+                "desconto": 82,
                 "temEstoque": true
             },
             {
