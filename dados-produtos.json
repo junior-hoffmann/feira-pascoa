@@ -563,7 +563,7 @@
                 "preco": 44,
                 "imagem": "./assets/chocolates/diversos/drageas-ao-leite-150g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Drageas Crocantes Brancas 150g",
@@ -577,7 +577,7 @@
                 "preco": 44,
                 "imagem": "./assets/chocolates/diversos/drageas-mistas-150g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Drageas Crocantes Brancas 200g",
