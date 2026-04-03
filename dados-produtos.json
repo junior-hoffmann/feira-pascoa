@@ -992,7 +992,7 @@
                 "preco": 18,
                 "imagem": "./assets/chocolates/soja/sabor-soja-50g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Coelha Soja 150g",
