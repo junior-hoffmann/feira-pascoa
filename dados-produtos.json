@@ -84,7 +84,7 @@
                 "preco": 5,
                 "imagem": "./assets/chocolates/ao-leite/coracao-12g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Coração Amo Você 100g",
@@ -257,7 +257,7 @@
                 "preco": 5,
                 "imagem": "./assets/chocolates/cesta/coracao-branco-12g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Coracao Branco 130g",
