@@ -133,7 +133,7 @@
                 "preco": 28,
                 "imagem": "./assets/chocolates/ao-leite/fusca-ao-leite-100g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Ovelha 70g",
