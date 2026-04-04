@@ -493,7 +493,7 @@
                 "preco": 38,
                 "imagem": "./assets/chocolates/diversos/caneca-florybal-com-cinta-102g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Cenoura com Drágeas 100g",
@@ -694,7 +694,7 @@
                 "preco": 38,
                 "imagem": "./assets/chocolates/infantil/caneca-dino.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Caneca Florybal Dino Pink c/ Cinta 88g",
@@ -806,7 +806,7 @@
                 "preco": 43,
                 "imagem": "./assets/chocolates/diversos/ovo-fantasia-branco-150g.webp",
                 "desconto": 0,
-                "temEstoque": true
+                "temEstoque": false
             },
             {
                 "descricao": "Unicornio Brigadeiro 15g",
